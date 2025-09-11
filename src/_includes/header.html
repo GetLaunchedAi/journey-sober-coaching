@@ -44,7 +44,7 @@
                     </ul>
 
                     {% else %}
-                    <a {% if entry.url==page.url %} class="active" {% endif %} href="{{ entry.url }}">
+                    <a {% if entry.url==page.url %} class="custom-active" {% endif %} href="{{ entry.url }}">
                         {{ entry.title }}
                     </a>
                     {% endif %}

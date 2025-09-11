@@ -4,9 +4,10 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #F58220; /* Bold Orange */
-    --primaryShade: #FFAA52; /* Warm Amber Glow */
-    --primaryDark: #C45E00; /* Deep Burnt Orange */
+    --primary: #1E73BE;   /* Bold Blue */
+    --primaryShade: #4DA3FF; /* Bright Sky Blue */
+    --primaryDark: #0D3C61;  /* Deep Navy Blue */
+
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
     --headerColor: #1a1a1a;
@@ -920,4 +921,16 @@
   body.dark-mode #footer {
     background: #061623;
   }
+}
+
+.custom-active {
+  text-decoration: underline !important;
+  text-decoration-thickness: 4px !important;
+  color: var(--primary) !important;
+}
+
+body.dark-mode .custom-active {
+  text-decoration: underline !important;
+  text-decoration-thickness: 4px !important;
+  color: var(--primary) !important;
 }
