@@ -17,8 +17,8 @@ eleventyNavigation:
 
 <section id="hero">
   <div class="cs-overlay"></div>
-  <div class="cs-container">
-    <div class="cs-flex-group">
+  <div class="cs-container fx fade-in">
+    <div class="cs-flex-group fx slide-top staggered-m" style="--i:1">
       <span class="cs-topper">Experienced. Compassionate. Supportive.</span>
       <h1 class="cs-title">
         Walk Your Journey to Lasting Sobriety
@@ -43,7 +43,7 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="services" class="services">
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:1">
     <picture>
       <img aria-hidden="true" decoding="async" src="/assets/svgs/service_1.svg" alt="coaching icon" width="48" height="48" />
     </picture>
@@ -52,7 +52,7 @@ eleventyNavigation:
       Personalized coaching designed to help you navigate challenges, set goals, and maintain long-term recovery with guidance from lived experience.
     </p>
   </div>
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:2">
     <picture>
       <img aria-hidden="true" decoding="async" src="/assets/svgs/service_2.svg" alt="workshop icon" width="48" height="48" />
     </picture>
@@ -70,9 +70,9 @@ eleventyNavigation:
 <section id="sbs">
   <div class="cs-container">
     <div class="cs-left">
-      {% image './src/images/about_img_0.png', 'Paul Sarris sober coaching', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/about_img_0.png', 'Paul Sarris sober coaching', 'cs-picture cs-picture1 fx slide-top staggered-m', 'lazy', '', 'style="--i:1"'%}
     </div>
-    <div class="cs-right">
+    <div class="cs-right fx slide-top staggered-m" style="--i:2">
       <span class="cs-topper">About Us</span>
       <h2 class="cs-title">About The Journey Sober Coaching</h2>
       <p class="cs-text">
@@ -104,9 +104,9 @@ eleventyNavigation:
   <div class="cs-container">
     <div class="cs-left">
       {% image './src/images/featured_img_0.png', 'sober coaching support in Michigan',
-      'cs-picture cs-picture1', 'lazy'%}
+      'cs-picture cs-picture1 fx slide-top staggered-m', 'lazy', '', 'style="--i:1"'%}
     </div>
-    <div class="cs-right">
+    <div class="cs-right fx slide-top staggered-m" style="--i:2">
       <span class="cs-topper">Why Choose Us</span>
       <h2 class="cs-title">Why The Journey Sober Coaching</h2>
       <p class="cs-text">
@@ -127,16 +127,16 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="reviews">
-  <div class="cs-container">
+  <div class="cs-container fx fade-in">
     <span class="cs-topper">Our Reviews</span>
     <h2 class="cs-title">What Clients Say</h2>
     <p class="cs-text">
-      The Journey Sober Coaching is honored to walk alongside clients in their recovery journey. Here’s what they have to say.
+      The Journey Sober Coaching is honored to walk alongside clients in their recovery journey. Here's what they have to say.
     </p>
-    <ul class="cs-card-group">
-      <li class="cs-item">
+    <ul class="cs-card-group fx slide-top staggered-m" style="--i:1">
+      <li class="cs-item fx slide-top staggered-m" style="--i:3">
         <p class="cs-item-p">
-          Paul’s coaching has been life-changing. His compassion and wisdom helped me stay grounded in my recovery.
+          Paul's coaching has been life-changing. His compassion and wisdom helped me stay grounded in my recovery.
         </p>
         <span class="cs-reviewer">
           Sarah L.
@@ -145,9 +145,9 @@ eleventyNavigation:
         <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async"
           src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
       </li>
-      <li class="cs-item">
+      <li class="cs-item fx slide-top staggered-m" style="--i:4">
         <p class="cs-item-p">
-          Working with Paul gave me the tools and confidence to rebuild my life. I can’t thank him enough.
+          Working with Paul gave me the tools and confidence to rebuild my life. I can't thank him enough.
         </p>
         <span class="cs-reviewer">
           James P.
@@ -165,13 +165,13 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="cta">
-  <div class="container">
+  <div class="container fx fade-in">
     <h2 class="title">
       Start Your Journey <br />
       Today
     </h2>
     <p>
-      Recovery is possible — and you don’t have to walk it alone. Contact The Journey Sober Coaching for guidance, accountability, and support at every step.
+      Recovery is possible — and you don't have to walk it alone. Contact The Journey Sober Coaching for guidance, accountability, and support at every step.
     </p>
     <a href="/contact/" class="button-solid">Contact Us</a>
   </div>
